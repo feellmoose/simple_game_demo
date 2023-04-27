@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="newGameDemo:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="14cd4b5f-9709-44ae-8548-4bc210e74b11" name="变更" comment="init">
+      <change beforePath="$PROJECT_DIR$/newGameDemo.jar" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2N0HkKzIzJr0HsHVdGybLHBtvJv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/my_works/JAVA/newGameDemo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "工件",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\my_works\JAVA\newGameDemo" />
+      <recent name="E:\my_works\newGameDemo\src" />
+      <recent name="E:\my_works\newGameDemo\src\Images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\my_works\JAVA\newGameDemo" />
+      <recent name="E:\my_works\newGameDemo\src\Images" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.Start">
+    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="indi.GeGeGame.Start" />
+      <module name="newGameDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="indi.GeGeGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="indi.GeGeGame.test" />
+      <module name="newGameDemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="newGameDemo.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/newGameDemo.jar" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.Start" />
+        <item itemvalue="JAR 应用程序.newGameDemo.jar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="14cd4b5f-9709-44ae-8548-4bc210e74b11" name="变更" comment="" />
+      <created>1678794222955</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678794222955</updated>
+      <workItem from="1678794224214" duration="4267000" />
+      <workItem from="1678799751165" duration="8218000" />
+      <workItem from="1678837170525" duration="857000" />
+      <workItem from="1678844513108" duration="5948000" />
+      <workItem from="1678856054593" duration="8379000" />
+      <workItem from="1678865756925" duration="2000" />
+      <workItem from="1678867254108" duration="3605000" />
+      <workItem from="1678882530876" duration="1571000" />
+      <workItem from="1678884924568" duration="3875000" />
+      <workItem from="1678943128613" duration="637000" />
+      <workItem from="1678951944692" duration="3927000" />
+      <workItem from="1678963996313" duration="14000" />
+      <workItem from="1679109081906" duration="35000" />
+      <workItem from="1679116146782" duration="5804000" />
+      <workItem from="1679122019268" duration="3084000" />
+      <workItem from="1679125167479" duration="355000" />
+      <workItem from="1679148942702" duration="5074000" />
+      <workItem from="1679190630589" duration="2000" />
+      <workItem from="1679191009874" duration="4000" />
+      <workItem from="1679204550682" duration="12562000" />
+      <workItem from="1679222274668" duration="652000" />
+      <workItem from="1679561109944" duration="74000" />
+      <workItem from="1679567615490" duration="34000" />
+      <workItem from="1680244551881" duration="66000" />
+      <workItem from="1680247353912" duration="17000" />
+      <workItem from="1680959423314" duration="2356000" />
+      <workItem from="1680961803055" duration="219000" />
+      <workItem from="1680962432534" duration="1862000" />
+      <workItem from="1680971646146" duration="30000" />
+      <workItem from="1682580804304" duration="4056000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1682584587154</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682584587154</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+</project>
