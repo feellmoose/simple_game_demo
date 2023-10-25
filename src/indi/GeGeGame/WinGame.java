@@ -139,7 +139,6 @@ public class WinGame extends JFrame {
                 g2.drawImage(e.image, e.x, e.y, this);
             }
         }
-
         if (player.angle >= -3.14 / 2 && player.angle <= 3.14 / 2) {
             //右
             g2.translate(player.x + player.width / 2, player.y + player.high / 2);

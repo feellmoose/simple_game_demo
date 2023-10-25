@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 
 
 public class Start {
-    public static ThreadPoolExecutor executor = new ThreadPoolExecutor(10,14,1000, TimeUnit.SECONDS,new LinkedBlockingQueue<>());
+    public static ThreadPoolExecutor executor = new ThreadPoolExecutor(12,15,1000, TimeUnit.SECONDS,new LinkedBlockingQueue<>());
     public static double start_angle = -1.5;
     public static int frame_rate = 50;
 //    public static int screen_width = Toolkit.getDefaultToolkit().getScreenSize().width;

@@ -9,15 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14cd4b5f-9709-44ae-8548-4bc210e74b11" name="变更" comment="optimize sounds">
+    <list default="true" id="14cd4b5f-9709-44ae-8548-4bc210e74b11" name="变更" comment="optimize 文件管理，统一使用线程池">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/indi/GeGeGame/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/indi/GeGeGame/entity/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/indi/GeGeGame/EnemyThreads.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/indi/GeGeGame/GameUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/indi/GeGeGame/resouce/GameUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/indi/GeGeGame/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/indi/GeGeGame/entity/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/indi/GeGeGame/Sound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/indi/GeGeGame/resouce/Sound.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/indi/GeGeGame/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/indi/GeGeGame/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/indi/GeGeGame/Sun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/indi/GeGeGame/entity/Sun.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/indi/GeGeGame/WinGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/indi/GeGeGame/WinGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,25 +44,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "E:/my_works/work_space/JAVA/QINGYOU/mini-program-3.5",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "工件",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/my_works/work_space/JAVA/FUN/simple_game_demo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;工件&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\my_works\work_space\JAVA\FUN\simple_game_demo" />
@@ -157,7 +151,8 @@
       <workItem from="1698195996039" duration="5348000" />
       <workItem from="1698212680891" duration="35000" />
       <workItem from="1698214392850" duration="2213000" />
-      <workItem from="1698227494945" duration="1598000" />
+      <workItem from="1698227494945" duration="1709000" />
+      <workItem from="1698233766322" duration="3615000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1682584587154</created>
@@ -182,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698216610457</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="optimize 文件管理，统一使用线程池">
+      <option name="closed" value="true" />
+      <created>1698229214350</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698229214350</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +218,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="change to zoooooooombie" />
     <MESSAGE value="optimize sounds" />
-    <option name="LAST_COMMIT_MESSAGE" value="optimize sounds" />
+    <MESSAGE value="optimize 文件管理，统一使用线程池" />
+    <option name="LAST_COMMIT_MESSAGE" value="optimize 文件管理，统一使用线程池" />
   </component>
 </project>
