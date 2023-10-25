@@ -9,15 +9,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14cd4b5f-9709-44ae-8548-4bc210e74b11" name="变更" comment="change to zoooooooombie">
+    <list default="true" id="14cd4b5f-9709-44ae-8548-4bc210e74b11" name="变更" comment="optimize sounds">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sounds/Che.wav" beforeDir="false" afterPath="$PROJECT_DIR$/sounds/Che.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sounds/a.wav" beforeDir="false" afterPath="$PROJECT_DIR$/sounds/a.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sounds/enemy.wav" beforeDir="false" afterPath="$PROJECT_DIR$/sounds/enemy.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sounds/enemyAttack.wav" beforeDir="false" afterPath="$PROJECT_DIR$/sounds/enemyAttack.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sounds/jinitaimai.wav" beforeDir="false" afterPath="$PROJECT_DIR$/sounds/jinitaimai.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/indi/GeGeGame/EnemyThreads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/indi/GeGeGame/EnemyThreads.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/indi/GeGeGame/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/indi/GeGeGame/entity/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/indi/GeGeGame/EnemyThreads.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/indi/GeGeGame/GameUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/indi/GeGeGame/resouce/GameUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/indi/GeGeGame/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/indi/GeGeGame/entity/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/indi/GeGeGame/Sound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/indi/GeGeGame/resouce/Sound.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/indi/GeGeGame/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/indi/GeGeGame/Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/indi/GeGeGame/Sun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/indi/GeGeGame/entity/Sun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/indi/GeGeGame/WinGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/indi/GeGeGame/WinGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +89,7 @@
       <module name="newGameDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="indi.GeGeGame.*" />
+          <option name="PATTERN" value="indi.GeGeGame.resouce.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,7 +156,8 @@
       <workItem from="1697639867415" duration="726000" />
       <workItem from="1698195996039" duration="5348000" />
       <workItem from="1698212680891" duration="35000" />
-      <workItem from="1698214392850" duration="2136000" />
+      <workItem from="1698214392850" duration="2213000" />
+      <workItem from="1698227494945" duration="1598000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1682584587154</created>
@@ -172,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698212601165</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="optimize sounds">
+      <option name="closed" value="true" />
+      <created>1698216610457</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698216610457</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +214,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="change to zoooooooombie" />
-    <option name="LAST_COMMIT_MESSAGE" value="change to zoooooooombie" />
+    <MESSAGE value="optimize sounds" />
+    <option name="LAST_COMMIT_MESSAGE" value="optimize sounds" />
   </component>
 </project>

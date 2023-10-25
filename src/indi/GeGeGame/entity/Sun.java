@@ -1,4 +1,4 @@
-package indi.GeGeGame;
+package indi.GeGeGame.entity;
 
 import java.awt.*;
 

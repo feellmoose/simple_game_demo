@@ -1,4 +1,4 @@
-package indi.GeGeGame;
+package indi.GeGeGame.entity;
 
 import java.awt.*;
 
@@ -8,8 +8,8 @@ public class Player {
     public Image image;
     public Image imageleft;
     public double angle;
-    boolean w, a, s, d;
-    Boolean openfire = false;
+    public boolean w, a, s, d;
+    public Boolean openfire = false;
 
     public Player(int x, int y, Image image, Image image_left, int speed) {
         this.health = 100;

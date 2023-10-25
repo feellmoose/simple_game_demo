@@ -1,5 +1,10 @@
 package indi.GeGeGame;
 
+import indi.GeGeGame.entity.Enemy;
+import indi.GeGeGame.entity.Player;
+import indi.GeGeGame.entity.Sun;
+import indi.GeGeGame.resouce.GameUtil;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyAdapter;
@@ -16,14 +21,14 @@ public class WinGame extends JFrame {
     public LinkedList<Enemy> enemies = new LinkedList<>();
 
     public void updateWinGame() {
-        this.player = new Player(0, 0, GameUtil.getImage(GameUtil.playerTwoImagePath).getScaledInstance(120, 110, Image.SCALE_DEFAULT), GameUtil.getImage(GameUtil.playerThreeImagePath).getScaledInstance(120, 110, Image.SCALE_DEFAULT), Start.player_speed);
+        this.player = new Player(150, 200, GameUtil.getImage(GameUtil.playerTwoImagePath).getScaledInstance(120, 110, Image.SCALE_DEFAULT), GameUtil.getImage(GameUtil.playerThreeImagePath).getScaledInstance(120, 110, Image.SCALE_DEFAULT), Start.player_speed);
         this.enemies.clear();
         this.sunList.clear();
         this.score = 0;
     }
 
     public WinGame() {
-        this.player = new Player(0, 0, GameUtil.getImage(GameUtil.playerTwoImagePath).getScaledInstance(120, 110, Image.SCALE_DEFAULT), GameUtil.getImage(GameUtil.playerThreeImagePath).getScaledInstance(120, 110, Image.SCALE_DEFAULT), Start.player_speed);
+        this.player = new Player(150, 200, GameUtil.getImage(GameUtil.playerTwoImagePath).getScaledInstance(120, 110, Image.SCALE_DEFAULT), GameUtil.getImage(GameUtil.playerThreeImagePath).getScaledInstance(120, 110, Image.SCALE_DEFAULT), Start.player_speed);
         this.setTitle("game");
         this.setSize(1000, 500);
         this.setLocationRelativeTo(null);
@@ -90,9 +95,7 @@ public class WinGame extends JFrame {
 
     @Override
     public void update(Graphics g) {
-        Image offScreenImage = null;
-        if (offScreenImage == null)
-            offScreenImage = createImage(1000, 500);
+        Image offScreenImage = createImage(1000, 500);
         Graphics gOff = offScreenImage.getGraphics();
         paint(gOff);
         g.drawImage(offScreenImage, 0, 0, null);
@@ -113,7 +116,7 @@ public class WinGame extends JFrame {
             g.drawString("请按\"r\"开始游戏", 100, 250);
             g.setFont(new Font("仿宋", Font.BOLD, 35));//字体，风格，字号
             g.drawString("\"w,s,a,d\"控制向日葵上下左右移动，鼠标控制方向", 100, 300);
-            g.drawString("鼠标点击控制发射阳关", 100, 350);
+            g.drawString("鼠标点击控制发射阳光", 100, 350);
         } else if (game_state == 2) {
             //游戏失败，累计分数
             g.setColor(Color.ORANGE);

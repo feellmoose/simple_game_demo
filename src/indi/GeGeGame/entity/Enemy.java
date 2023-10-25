@@ -1,4 +1,6 @@
-package indi.GeGeGame;
+package indi.GeGeGame.entity;
+
+import indi.GeGeGame.Start;
 
 import java.awt.*;
 import java.util.Random;
@@ -9,14 +11,13 @@ public class Enemy {
     public Image right;
     public int health;
 
-    public Enemy(Player player, Image image,Image right, int speed, int health) {
+    public Enemy(Player player, Image image, Image right, int speed, int health) {
         this.speed = speed;
         this.image = image;
         this.right = right;
         this.width = image.getWidth(null);
         this.high = image.getHeight(null);
         this.health = health;
-        //在地图内，player远处生产xy
         while (this.x > 1000 || this.x <= 0 || this.y <= 0 || this.y > 500 || Math.sqrt(player.x + player.width / 2 - this.x - this.width) + Math.sqrt(player.y + player.high / 2 - this.y - this.high) < Start.EP_distance2) {
             Random random = new Random();
             this.x = random.nextInt(1000);

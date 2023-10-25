@@ -1,4 +1,4 @@
-package indi.GeGeGame;
+package indi.GeGeGame.resouce;
 
 import javax.sound.sampled.*;
 import java.io.File;
@@ -8,7 +8,7 @@ public class Sound {
         playMusic(path, value);
     }
 
-    static void playMusic(String path, double value) {
+    static public void playMusic(String path, double value) {
         try {
             AudioInputStream ais = AudioSystem.getAudioInputStream(new File(path));    //绝对路径
             AudioFormat aif = ais.getFormat();

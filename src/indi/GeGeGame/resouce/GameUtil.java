@@ -1,4 +1,4 @@
-package indi.GeGeGame;
+package indi.GeGeGame.resouce;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
@@ -12,7 +12,6 @@ public class GameUtil {
     public static String enemySoundPath = CLASSPATH + "sounds/enemy.wav";
     public static String enemyAttackSoundPath = CLASSPATH + "sounds/enemyAttack.wav";
     public static String aPath = CLASSPATH + "sounds/a.wav";
-
     public static String backImagePath = CLASSPATH + "Images/R-C.png";
     public static String basketballImagePath = CLASSPATH + "Images/R-C(1)(1).png";
     public static String playerTwoImagePath = CLASSPATH + "Images/R-C(1).png";
