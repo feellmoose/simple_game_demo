@@ -9,25 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14cd4b5f-9709-44ae-8548-4bc210e74b11" name="变更" comment="init">
-      <change afterPath="$PROJECT_DIR$/Images/download2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="14cd4b5f-9709-44ae-8548-4bc210e74b11" name="变更" comment="change to zoooooooombie">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/R-C(1)(1).png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/R-C(1)(1).png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/R-C(1).png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/R-C(1).png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/R-C.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/R-C.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/download.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/download.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/jige.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/left.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/left.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/indi/GeGeGame/Basketball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/indi/GeGeGame/Basketball.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/indi/GeGeGame/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/indi/GeGeGame/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sounds/Che.wav" beforeDir="false" afterPath="$PROJECT_DIR$/sounds/Che.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sounds/a.wav" beforeDir="false" afterPath="$PROJECT_DIR$/sounds/a.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sounds/enemy.wav" beforeDir="false" afterPath="$PROJECT_DIR$/sounds/enemy.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sounds/enemyAttack.wav" beforeDir="false" afterPath="$PROJECT_DIR$/sounds/enemyAttack.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sounds/jinitaimai.wav" beforeDir="false" afterPath="$PROJECT_DIR$/sounds/jinitaimai.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/indi/GeGeGame/EnemyThreads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/indi/GeGeGame/EnemyThreads.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/indi/GeGeGame/GameUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/indi/GeGeGame/GameUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/indi/GeGeGame/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/indi/GeGeGame/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/indi/GeGeGame/Sound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/indi/GeGeGame/Sound.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/indi/GeGeGame/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/indi/GeGeGame/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/indi/GeGeGame/WinGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/indi/GeGeGame/WinGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/indi/GeGeGame/test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +33,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -63,7 +56,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "E:/my_works/work_space/JAVA/FUN/simple_game_demo",
+    "last_opened_file_path": "E:/my_works/work_space/JAVA/QINGYOU/mini-program-3.5",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -83,6 +76,7 @@
       <recent name="E:\my_works\newGameDemo\src\Images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\my_works\work_space\JAVA\FUN\simple_game_demo" />
       <recent name="E:\my_works\work_space\JAVA\FUN\simple_game_demo\sounds" />
       <recent name="E:\my_works\JAVA\newGameDemo" />
       <recent name="E:\my_works\newGameDemo\src\Images" />
@@ -159,7 +153,9 @@
       <workItem from="1680971646146" duration="30000" />
       <workItem from="1682580804304" duration="4056000" />
       <workItem from="1697639867415" duration="726000" />
-      <workItem from="1698195996039" duration="5004000" />
+      <workItem from="1698195996039" duration="5348000" />
+      <workItem from="1698212680891" duration="35000" />
+      <workItem from="1698214392850" duration="2136000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1682584587154</created>
@@ -168,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1682584587154</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="change to zoooooooombie">
+      <option name="closed" value="true" />
+      <created>1698212601165</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698212601165</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +203,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="change to zoooooooombie" />
+    <option name="LAST_COMMIT_MESSAGE" value="change to zoooooooombie" />
   </component>
 </project>

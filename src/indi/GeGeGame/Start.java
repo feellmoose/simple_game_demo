@@ -1,10 +1,14 @@
 package indi.GeGeGame;
 
 import java.awt.*;
+import java.util.concurrent.Executor;
+import java.util.concurrent.LinkedBlockingQueue;
+import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
 
 
 public class Start {
-
+    public static ThreadPoolExecutor executor = new ThreadPoolExecutor(10,10,1000, TimeUnit.SECONDS,new LinkedBlockingQueue<>());
     public static double start_angle = -1.5;
     public static int frame_rate = 50;
     public static int screen_width = Toolkit.getDefaultToolkit().getScreenSize().width;
@@ -16,15 +20,11 @@ public class Start {
     public static int EP_distance2 = 400;
 
     public static void main(String[] args) {
-        System.out.println(GameUtil.playerTwoImagePath);
         WinGame winGame = new WinGame();
         Sound.playMusic(GameUtil.openFireSoundPath, 2);
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                while (true) {
-                    Sound.playMusic(GameUtil.BGMSoundPath, 0.2);
-                }
+        new Thread(() -> {
+            while (true) {
+                Sound.playMusic(GameUtil.BGMSoundPath, 0.2);
             }
         }).start();
         new EnemyThreads(winGame).start();
@@ -56,7 +56,9 @@ public class Start {
                 //获取点击更改图片属性,发射篮球+回收篮球
                 if (winGame.player.openfire) {
                     //此处开火音频
-                    Sound.playMusic(GameUtil.openFireSoundPath, 2);
+                    executor.execute(() -> {
+                        Sound.playMusic(GameUtil.openFireSoundPath, 2);
+                    });
                     //初始化篮球
                     winGame.sunList.add(new Sun(winGame.player.x + winGame.player.width / 2, winGame.player.y + winGame.player.high / 2, GameUtil.getImage(GameUtil.basketballImagePath), Start.basket_speed, winGame.player.angle));
                 }

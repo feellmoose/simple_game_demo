@@ -24,7 +24,7 @@ public class EnemyThreads extends Thread {
                             GameUtil.getImage(GameUtil.rightEnemyImagePath).getScaledInstance(100, 100, Image.SCALE_DEFAULT),
                             5, 100));
                     if (m < 1) {
-                        Sound.playMusic(GameUtil.enemySoundPath, 1);
+                        Sound.playMusic(GameUtil.enemySoundPath, 0.2);
                     }
                 }
                 int s2 = winGame.enemies.size();
@@ -33,9 +33,9 @@ public class EnemyThreads extends Thread {
                         Enemy e = winGame.enemies.get(j);
                         if (e.x + e.width > winGame.player.x && winGame.player.x + winGame.player.width > e.x && e.y + e.high > winGame.player.y && winGame.player.y + winGame.player.high > e.y) {
                             winGame.player.health -= 10;
-                            Sound.playMusic(GameUtil.aPath, 2);
+                            Sound.playMusic(GameUtil.aPath, 0.5);
                             if (winGame.player.health <= 0) {
-                                Sound.playMusic(GameUtil.enemyAttackSoundPath, 2);
+                                Sound.playMusic(GameUtil.enemyAttackSoundPath, 0.5);
                                 winGame.game_state = 2;
                             }
                         }
